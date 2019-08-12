@@ -14,8 +14,6 @@ arquivo = xlrd.open_workbook('C:\\cursosUdemy\\robos_python\dominios.xlsx')
 sheet = arquivo.sheet_by_index(0) #le os dados da primeira aba do excel
 for linha in range(0,12):
     dominios.append(sheet.cell_value(linha,0))
-
-
 driver = webdriver.Chrome('C:\\cursosUdemy\\robos_python\\chromedriver')# Localiza onde está o driver do chrome
 driver.get('https://registro.br/') # acessa o site no navegador
 
