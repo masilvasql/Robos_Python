@@ -1,0 +1,16 @@
+---- Python ----
+https://www.python.org/downloads/release/python-360/
+
+---- Bibliotecas ----
+
+virtualenv robo_env
+
+pip install xlrd
+pip install selenium
+pip installrequests
+
+---- Chrome ----
+https://www.python.org/downloads/release/python-360/
+
+---- Driver Selenium ----
+http://chromedriver.chromium.org/downloads
